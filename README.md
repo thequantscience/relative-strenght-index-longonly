@@ -19,7 +19,7 @@ In questo algoritmo ogni perdita e guadagno viene reinvestita con ottica dell' i
 # Setting 
 
 1) Copia il codice dal file GitHub. 
-2) Incolla il codice sul tuo editor di Tradin View e salva.
+2) Incolla il codice sul tuo editor di Trading View e salva.
 3) Scegli un mercato e un time frame. 
 4) Clicca su aggiungi al grafico. 
 5) Analizza. 
