@@ -25,8 +25,8 @@ value = 29
 
 // 4. Money Management Setting
 
-TP = 0.035
-SL = 0.035
+TP = 0.035 // Mean 3.5%
+SL = 0.035 // Mean -3.5%
 
 // 5. Stop Loss and Take Profit Setting
 
