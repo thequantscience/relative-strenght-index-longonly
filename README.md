@@ -16,10 +16,6 @@ I parametri di costo per transazione e capitale iniziale possono essere modifica
 
 In questo algoritmo ogni perdita e guadagno viene reinvestita con ottica dell' interesse composto.
 
-# ATTENZIONE: Disclaimer 
-
-La performance passata non è garanzia di risultati futuri e il valore degli investimenti può aumentare o diminuire. Nessuna strategia di investimento è al riparo dal rischio e i mercati influiscono sui risultati dell'investimento. I mercati e le loro condizioni possono cambiare bruscamente. Strategie o prodotti possono registrare perdite o guadagni. Gli investitori che hanno ulteriori domande dovrebbero richiedere una consulenza indipendente in base alle loro esigenze, situazione e livello di tolleranza al rischio. Questo è un semplice esempio di backtesting, non un consiglio finanziario! Eventuali danni derivanti da un uso diverso da quello accademico non sono imputabili in alcun modo al titolare dell'account.  L'utilizzo dei dati e delle informazioni come supporto di scelte di operazioni d'investimento personale è a completo rischio dell'Utente. Prima di concludere una qualsiasi operazione bancaria/finanziaria sulla base delle informazioni ottenute - direttamente o indirettamente - , è opportuno che l'Utente si rivolga alla propria banca o ad altro intermediario finanziario autorizzato, al fine di verificare la veridicità e la correttezza di tali informazioni, nonché l'opportunità dell'operazione in relazione alle proprie esigenze personali e alla propria situazione economica, finanziaria e reddituale.
-
 # Setting 
 
 1) Copia il codice dal file GitHub. 
@@ -29,3 +25,7 @@ La performance passata non è garanzia di risultati futuri e il valore degli in
 5) Analizza. 
 
 Potrai modificare i parametri dell' algoritmo in base al mercato e time frame di riferimento senza alcun vincolo. 
+
+# ATTENZIONE: Disclaimer 
+
+La performance passata non è garanzia di risultati futuri e il valore degli investimenti può aumentare o diminuire. Nessuna strategia di investimento è al riparo dal rischio e i mercati influiscono sui risultati dell'investimento. I mercati e le loro condizioni possono cambiare bruscamente. Strategie o prodotti possono registrare perdite o guadagni. Gli investitori che hanno ulteriori domande dovrebbero richiedere una consulenza indipendente in base alle loro esigenze, situazione e livello di tolleranza al rischio. Questo è un semplice esempio di backtesting, non un consiglio finanziario! Eventuali danni derivanti da un uso diverso da quello accademico non sono imputabili in alcun modo al titolare dell'account.  L'utilizzo dei dati e delle informazioni come supporto di scelte di operazioni d'investimento personale è a completo rischio dell'Utente. Prima di concludere una qualsiasi operazione bancaria/finanziaria sulla base delle informazioni ottenute - direttamente o indirettamente - , è opportuno che l'Utente si rivolga alla propria banca o ad altro intermediario finanziario autorizzato, al fine di verificare la veridicità e la correttezza di tali informazioni, nonché l'opportunità dell'operazione in relazione alle proprie esigenze personali e alla propria situazione economica, finanziaria e reddituale.
