@@ -2,10 +2,21 @@ L'obbiettivo di questo script è quello di mostrare velocemente all' investitore
 
 Gli script prendono in analisi il pair Bitcoin/USDTether con timeframe 4H (KuCoin Exchange).
 
+Inizialmente per comprendere lo script ti consigliamo quindi di impostare questo pair assieme al suo timeframe di riferimento. 
+
 I file sono due: 
 
 1) Time Exit 
 2) Stop Loss Take Profit 
+
+Differiscono per la funzione di uscita dal trade. L' uscita 1) si basa su un periodo temporale, il 2) su un uscita in base al valore corrente del capitale investito. 
+
+IMPORTANTE: Il file 2) contenente stop loss e take profit calcola una media sul capitale per decretare i livelli di stop e profit. Questo può portare a modeste variazioni in temrmini percentuali. Queste variazioni dipendono da due fattori:
+
+A) Il primo è che l' output tiene in considerazione anche dei costi di transazione.
+B) Il secondo dato il calcolo di SL e TP sulla media, se il capitale iniziale cresce o diminuisce può comportare transitorie variazioni sui parametri di SL e TP futuri.
+
+Per comprendere il funzionamento circa i parametri di SL e TP puoi approfondire la funzione --> strategy.position_avg_price
 
 # Strategia
 La strategia presa in considerazione è long only, vengono analizzate esclusivamente le posizioni long. 
