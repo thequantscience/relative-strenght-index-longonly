@@ -1,6 +1,3 @@
-# relative-strenght-index-longonly
-Esempi di codice semplice Pine in cui si applica il backtesting dell' indicatore RSI. 
-
 L'obbiettivo di questo script è quello di mostrare velocemente all' investitore le performance di trading passate utilizzando l' indicatore RSI. 
 
 # Strategia
@@ -18,7 +15,3 @@ Il capitale iniziale su cui analizziamo questa strategia è fissato a 1000€.
 I parametri di costo per transazione e capitale iniziale possono essere modificati a piacere dall' utente cosi come i parametri tecnici dell' indicatore RSI.
 
 In questo algoritmo ogni perdita e guadagno viene reinvestita con ottica dell' interesse composto.
-
-
-
-# relative-strenght-index-longonly
