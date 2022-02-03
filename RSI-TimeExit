@@ -1,0 +1,41 @@
+// This source code is subject to the terms of the Mozilla Public License 2.0 at https://mozilla.org/MPL/2.0/
+// © thequantscience
+
+//@version=4
+strategy("RSI_BTC/USDT4H-KUCOIN_Easy_Strategy_Long", overlay=true, default_qty_type = strategy.percent_of_equity, default_qty_value = 100, currency = currency.EUR, initial_capital = 1000, commission_type = strategy.commission.percent, commission_value = 0.03)
+
+// Qty_Value = 100 
+// Currency = EUR 
+// Initial_Capital = 1000 
+// Commission_% = 3
+
+// RSI Long Setting 
+
+// 1. Setting RSI Period
+
+n = 5
+
+// 2. RSI Setting
+
+rsi_indicator = rsi(close, n)
+
+// 3. RSI Value Setting 
+
+value = 29
+
+// Open Order Function 
+
+// 4. Long Entry Function 
+
+if rsi_indicator < value and strategy.opentrades == 0
+    strategy.entry(id = "Long_Entry", long = true)
+    
+// Closing Trades Function 
+
+// 5. Closing Period 
+
+close_period = 23
+
+// 6. Closing Function
+
+strategy.close_all(when = barssince(change(strategy.opentrades)) == close_period)
