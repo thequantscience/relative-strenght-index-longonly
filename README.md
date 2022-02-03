@@ -1,5 +1,12 @@
 L'obbiettivo di questo script è quello di mostrare velocemente all' investitore le performance di trading passate utilizzando l' indicatore RSI. 
 
+Gli script prendono in analisi il pair Bitcoin/USDTether con timeframe 4H (KuCoin Exchange).
+
+I file sono due: 
+
+1) Time Exit 
+2) Stop Loss Take Profit 
+
 # Strategia
 La strategia presa in considerazione è long only, vengono analizzate esclusivamente le posizioni long. 
 
