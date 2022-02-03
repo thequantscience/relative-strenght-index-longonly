@@ -13,8 +13,8 @@ Differiscono per la funzione di uscita dal trade. L' uscita 1) si basa su un per
 
 IMPORTANTE: Il file 2) contenente stop loss e take profit calcola una media sul capitale per decretare i livelli di stop e profit. Questo può portare a modeste variazioni in temrmini percentuali. Queste variazioni dipendono da due fattori:
 
-A. Il primo è che l' output tiene in considerazione anche dei costi di transazione.
-B. Il secondo dato il calcolo di SL e TP sulla media, se il capitale iniziale cresce o diminuisce può comportare transitorie variazioni sui parametri di SL e TP futuri.
+1) Il primo è che l' output tiene in considerazione anche dei costi di transazione.
+2) Il secondo dato il calcolo di SL e TP sulla media, se il capitale iniziale cresce o diminuisce può comportare transitorie variazioni sui parametri di SL e TP futuri.
 
 Per comprendere il funzionamento circa i parametri di SL e TP puoi approfondire la funzione --> strategy.position_avg_price
 
